@@ -1,0 +1,131 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 192 240)
+	(text "keyboard" (rect 5 0 51 12)(font "Arial" ))
+	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk_10kHz" (rect 0 0 50 12)(font "Arial" ))
+		(text "clk_10kHz" (rect 21 27 71 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "col[3..0]" (rect 0 0 40 12)(font "Arial" ))
+		(text "col[3..0]" (rect 21 43 61 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 176 32)
+		(output)
+		(text "row[3..0]" (rect 0 0 42 12)(font "Arial" ))
+		(text "row[3..0]" (rect 113 27 155 39)(font "Arial" ))
+		(line (pt 176 32)(pt 160 32)(line_width 3))
+	)
+	(port
+		(pt 176 48)
+		(output)
+		(text "key_data[3..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "key_data[3..0]" (rect 84 43 155 55)(font "Arial" ))
+		(line (pt 176 48)(pt 160 48)(line_width 3))
+	)
+	(port
+		(pt 176 64)
+		(output)
+		(text "key_pressed" (rect 0 0 63 12)(font "Arial" ))
+		(text "key_pressed" (rect 92 59 155 71)(font "Arial" ))
+		(line (pt 176 64)(pt 160 64)(line_width 1))
+	)
+	(port
+		(pt 176 80)
+		(output)
+		(text "key_0_5" (rect 0 0 42 12)(font "Arial" ))
+		(text "key_0_5" (rect 113 75 155 87)(font "Arial" ))
+		(line (pt 176 80)(pt 160 80)(line_width 1))
+	)
+	(port
+		(pt 176 96)
+		(output)
+		(text "key_0_9" (rect 0 0 42 12)(font "Arial" ))
+		(text "key_0_9" (rect 113 91 155 103)(font "Arial" ))
+		(line (pt 176 96)(pt 160 96)(line_width 1))
+	)
+	(port
+		(pt 176 112)
+		(output)
+		(text "key_A" (rect 0 0 31 12)(font "Arial" ))
+		(text "key_A" (rect 124 107 155 119)(font "Arial" ))
+		(line (pt 176 112)(pt 160 112)(line_width 1))
+	)
+	(port
+		(pt 176 128)
+		(output)
+		(text "key_B" (rect 0 0 31 12)(font "Arial" ))
+		(text "key_B" (rect 124 123 155 135)(font "Arial" ))
+		(line (pt 176 128)(pt 160 128)(line_width 1))
+	)
+	(port
+		(pt 176 144)
+		(output)
+		(text "key_C" (rect 0 0 33 12)(font "Arial" ))
+		(text "key_C" (rect 122 139 155 151)(font "Arial" ))
+		(line (pt 176 144)(pt 160 144)(line_width 1))
+	)
+	(port
+		(pt 176 160)
+		(output)
+		(text "key_D" (rect 0 0 33 12)(font "Arial" ))
+		(text "key_D" (rect 122 155 155 167)(font "Arial" ))
+		(line (pt 176 160)(pt 160 160)(line_width 1))
+	)
+	(port
+		(pt 176 176)
+		(output)
+		(text "key_E" (rect 0 0 31 12)(font "Arial" ))
+		(text "key_E" (rect 124 171 155 183)(font "Arial" ))
+		(line (pt 176 176)(pt 160 176)(line_width 1))
+	)
+	(port
+		(pt 176 192)
+		(output)
+		(text "key_F" (rect 0 0 31 12)(font "Arial" ))
+		(text "key_F" (rect 124 187 155 199)(font "Arial" ))
+		(line (pt 176 192)(pt 160 192)(line_width 1))
+	)
+	(parameter
+		"ROTATE"
+		"false"
+		""
+		(type "PARAMETER_ENUM")	)
+	(parameter
+		"LAYOUT"
+		"1"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 160 208)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 192 -64 292 16))
+)

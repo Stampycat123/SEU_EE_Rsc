@@ -1,0 +1,15 @@
+%0 Journal Article
+%A 单晓峰
+%+ 稽山中学 浙江绍兴312000
+%T 关于受迫振动、共振的实验研究
+%J 物理实验
+%D 2006
+%N 08
+%K 受迫振动;固有频率;驱动力;振幅;共振
+%X 简要分析了现行中学物理课本中关于受迫振动和共振的演示实验中存在的缺点,并针对其不足加以改进.改进后的实验装置演示效果更好,便于学生理解和掌握相应的物理规律.
+%P 24-26
+%@ 1005-4642
+%U https://kns.cnki.net/kcms2/article/abstract?v=_AqZbjAWWJRNgfS7L847fVT-pDtaaTmmvcPsjL_KkhI6NtyGNvAHuD84mghDwOr2UcJbbdJInrZqS2uLTvHQCnHzLdrPJqHTLheEAOJghiVrwdu8jbLm2C-b_90n9Tk4mXORNih63KY=&uniplatform=NZKPT&language=CHS
+%W CNKI
+
+ 
