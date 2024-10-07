@@ -1,0 +1,1 @@
+bus1 0 50 Nanjing Chengdu 600 570 1000 100 bus2 1 25 Nanjing Shanghai 240 300 900 90 bus3 7 10 Xi'an Bangbu 270 300 850 70 bus4 13 30 Chongqing Beijing 500 530 1200 400 bus5 17 05 Guangzhou Shenzhen 300 250 900 500
